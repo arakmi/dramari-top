@@ -1053,64 +1053,7 @@
                     category: "cartoon",
                     rating: 4.3,
                     userRating: 0
-
-                }
-            ]
-        };
-
-        // App state
-        let currentLanguage = 'en';
-        let currentFilter = 'all';
-        let allVideos = [...videoData.movies, ...videoData.series, ...videoData.cartoon];
-        let playlist = [];
-        let currentVideo = null;
-
-        // Language translations
-        const translations = {
-            en: {
-                searchPlaceholder: "Search movies and series and cartoon...",
-                all: "All",
-                movies: "Movies",
-                series: "Series",
-                cartoon: "cartoon",
-                videoNotSupported: "Your browser does not support video playback",
-                playlistTitle: "Playlist",
-                shareTitle: "Share Video",
-                addToPlaylist: "Add to Playlist",
-                removeFromPlaylist: "Remove",
-                addedToPlaylist: "Added to playlist!",
-                removedFromPlaylist: "Removed from playlist!",
-                linkCopied: "Link copied!",
-                copyBtn: "Copy",
-                closeBtn: "Close",
-                rateVideo: "Rate this video",
-                playlistBtn: "📋 Playlist",
-                loading: "Loading video...",
-                videoError: "Error loading video from Archive.org",
-                videoUnavailable: "Video temporarily unavailable"
-            },
-            ar: {
-                searchPlaceholder: "البحث في الأفلام والمسلسلات و الكرتون...",
-                all: "الكل",
-                movies: "أفلام",
-                series: "مسلسلات",
-                cartoon: "كرتون",
-                videoNotSupported: "متصفحك لا يدعم تشغيل الفيديو",
-                playlistTitle: "قائمة التشغيل",
-                shareTitle: "مشاركة الفيديو",
-                addToPlaylist: "أضف للقائمة",
-                removeFromPlaylist: "إزالة",
-                addedToPlaylist: "تم الإضافة لقائمة التشغيل!",
-                removedFromPlaylist: "تم الحذف من قائمة التشغيل!",
-                linkCopied: "تم نسخ الرابط!",
-                copyBtn: "نسخ",
-                closeBtn: "إغلاق",
-                rateVideo: "قيم هذا الفيديو",
-                playlistBtn: "📋 قائمة التشغيل",
-                loading: "جاري تحميل الفيديو...",
-                videoError: "خطأ في تحميل الفيديو من Archive.org",
-                videoUnavailable: "الفيديو غير متاح مؤقتاً"
-                                },
+                },
                 {
 
                  id: 3,
@@ -1267,6 +1210,64 @@
                     category: "cartoon",
                     rating: 4.3,
                     userRating: 0
+
+                }
+            ]
+        };
+
+        // App state
+        let currentLanguage = 'en';
+        let currentFilter = 'all';
+        let allVideos = [...videoData.movies, ...videoData.series, ...videoData.cartoon];
+        let playlist = [];
+        let currentVideo = null;
+
+        // Language translations
+        const translations = {
+            en: {
+                searchPlaceholder: "Search movies and series and cartoon...",
+                all: "All",
+                movies: "Movies",
+                series: "Series",
+                cartoon: "cartoon",
+                videoNotSupported: "Your browser does not support video playback",
+                playlistTitle: "Playlist",
+                shareTitle: "Share Video",
+                addToPlaylist: "Add to Playlist",
+                removeFromPlaylist: "Remove",
+                addedToPlaylist: "Added to playlist!",
+                removedFromPlaylist: "Removed from playlist!",
+                linkCopied: "Link copied!",
+                copyBtn: "Copy",
+                closeBtn: "Close",
+                rateVideo: "Rate this video",
+                playlistBtn: "📋 Playlist",
+                loading: "Loading video...",
+                videoError: "Error loading video from Archive.org",
+                videoUnavailable: "Video temporarily unavailable"
+            },
+            ar: {
+                searchPlaceholder: "البحث في الأفلام والمسلسلات و الكرتون...",
+                all: "الكل",
+                movies: "أفلام",
+                series: "مسلسلات",
+                cartoon: "كرتون",
+                videoNotSupported: "متصفحك لا يدعم تشغيل الفيديو",
+                playlistTitle: "قائمة التشغيل",
+                shareTitle: "مشاركة الفيديو",
+                addToPlaylist: "أضف للقائمة",
+                removeFromPlaylist: "إزالة",
+                addedToPlaylist: "تم الإضافة لقائمة التشغيل!",
+                removedFromPlaylist: "تم الحذف من قائمة التشغيل!",
+                linkCopied: "تم نسخ الرابط!",
+                copyBtn: "نسخ",
+                closeBtn: "إغلاق",
+                rateVideo: "قيم هذا الفيديو",
+                playlistBtn: "📋 قائمة التشغيل",
+                loading: "جاري تحميل الفيديو...",
+                videoError: "خطأ في تحميل الفيديو من Archive.org",
+                videoUnavailable: "الفيديو غير متاح مؤقتاً"
+            
                 
             }
         };
